@@ -1097,7 +1097,7 @@ body{
 		background:black;
 		height:auto;
 		top:80px;
-		right:1%;
+		right:0;
 		flex-wrap:wrap;
 		z-index: 1;
 	}
