@@ -1409,4 +1409,107 @@ body{
 
 
 
-@media screen and (max-width:425px){}
+@media screen and (max-width:425px){
+    .wrapper {
+        padding: 0 20px;
+    }
+    .mobile-trigger {
+        right: 0px;
+    }
+    .hero-section {
+        background-image: url(/img/hero_02.jpg);
+        background-position: -1% 4%;
+        background-size: 641px auto;
+    }
+    .hero-title {
+        font-size: 43px;
+        padding-top: 3.5rem;
+    }
+    .agency {
+        font-size: 44px;
+    }
+    .make-an-enquiry {
+        font-size: 16px;
+    }
+    .box-content {
+        padding: 40px 32px 73px 30px;
+    }
+    .flex-container > .fl-btn {
+        width: 100%;
+    }
+    .w-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 40px;
+    }
+    .about-text-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .view-all-btn {
+        padding-top: 15px;
+    }
+    .Lorem {
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 22px;
+        font-size: 0.95rem;
+        padding-left: 0;
+        font-weight: 300;
+        line-height: 23px;
+        letter-spacing: 1px;
+    }
+    .main-three {
+        margin-top: 70px;
+        display: block;
+    }
+    .what-client-say {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        padding: 100px 0px 0px 0px;
+    }
+    .footer-content-middle {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .parent-berlin {
+        width: 100%;
+        padding-left: 25%;
+        /* align-items: center; */
+        /* text-align: center; */
+        margin: 0 auto;
+    }
+    .parent-melb {
+        width: 100%;
+        padding-right: 21%;
+        text-align: center;
+    }
+    .footer-content-last {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        /* align-content: center; */
+        padding: 25px;
+    }
+    .all-rights {
+        color: gray;
+        font-size: 12px;
+        padding: 10px;
+    }
+    .latest-news-section-one {
+        text-align: center;
+        padding: 16px 70px 50px 70px;
+    }
+    .title {
+        font-family: inherit;
+        font-size: 2.7rem;
+        font-weight: 700;
+    }
+}
